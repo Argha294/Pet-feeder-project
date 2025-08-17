@@ -1,0 +1,41 @@
+Problem Statement:   
+
+An inexpensive, programmable automated pet feeder is needed at a nearby animal shelter. It should be capable of dispensing the food to the cats and dogs at fixed time intervals, monitor the quantity being eaten, and alert staff to issues (e.g., food not being dispensed, animal neglecting to eat food). It should be a rational, understandable system, and it should be operated with off-the-shelf, relatively low-cost hardware, i.e., servo motors and sensors. 
+
+ Required Features: 
+
+Provide food on a regular schedule, morning and evening. 
+
+Measurement of bowl intake by weight or infrared sensor.  
+
+Raise issue alert in case of an issue (no food, or no eating is detected)  
+
+Inputs: 
+
+  
+
+Feeding schedule (staff-allocated times). 
+
+Real-time clock. 
+
+Food level sensor (in storage container). 
+
+Either an infrared sensor or a weight sensor (to check if the pet eats). 
+
+ Outputs: 
+
+Servo motor rotation for food dispensing. 
+
+Alert system (notification to staff). 
+
+ 
+
+Assumptions and Limitations: 
+
+Only dry pet food will be served. 
+
+Feeder processes one type of food at a time. 
+
+ Restricted memory and basic logic control (no advanced machine learning). 
+
+No notifications over the internet or mobile are sent first the easiest notifications will do. 
