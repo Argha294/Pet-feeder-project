@@ -1,0 +1,42 @@
+Pseudocode Implementation: 
+
+READ currentTime 
+FOREACH time in the schedule DO 
+
+IF the currentTime is equal to the feedingTime THEN 
+
+READ foodBinLevel 
+
+IF foodBinLevel IS LESS THAN minimumLevel THEN 
+
+SEND alert ("The food bin is empty") 
+
+CONTINU 
+
+END IF 
+
+READ the first Bowl 
+
+switch side section time giver 
+
+WAIT 10 seconds 
+
+READ finalBowl 
+
+IF (finalBowlWeight - initialBowlWeight) < expected 
+
+WARN ("The dispenser is not functioning"); 
+
+END IF 
+
+WAIT 30 MINUTES 
+
+READ bowlWeightAfter30min 
+
+IF (initialBowlWeight - bowlWeightAfter30min < 5 TH) 
+
+SEND alert ('Pet did not eat') 
+
+ENDIF 
+
+ 
