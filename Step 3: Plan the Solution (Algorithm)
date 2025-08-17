@@ -1,0 +1,11 @@
+Check to see if it's feeding time.  
+
+If so, make sure there is food in the food storage. 
+
+Mount a servo motor that can discharge food if there is any. 
+
+Measure the bowl for 10 minutes. 
+
+The "Pet did not eat" message is sent if the weight remains unchanged. 
+
+Notify the user when the food storage is empty with the text "Food bin empty." 
