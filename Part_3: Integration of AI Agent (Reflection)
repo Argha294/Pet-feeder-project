@@ -1,0 +1,11 @@
+ In the project phase, I used an AI agent to help and enhance my development of the pet automatic feeder. I instructed the AI to look at my Step 4 pseudocode and give advice on how I might enhance it. It suggested that I make my variable declarations more explicit, i.e., feedingTime, foodBinLevel, and bowlWeight, so the logic is less ambiguous and more cut-and-dried. It suggested a more formal progression rather than some of the inner IF statements, which made it easier to read.I then inquired of the AI alternative methods it had for detecting errors.  
+
+It suggested the implementation of two distinct sensors (a weight sensor and an infrared sensor) in conjunction such that the system would be less likely to give false alarms in determining if a pet had eaten. Its suggestion informed me about the application of redundancy in real-world systems towards the end of minimizing false alarms. 
+
+  
+
+Lastly, I employed the AI in preparing my documents. It instructed me as to how I might write a proper README.md for my GitHub repo and how I might structure my directories professionally. This advice made my submission more professional and clearer. 
+
+  
+
+In general, the AI assisted me in the process of preparing my technical justification and documents. Although my own answer at the end is my own work and decision, the AI provided useful comments, alternative ideas, and summarized the final project in a professional manner. 
