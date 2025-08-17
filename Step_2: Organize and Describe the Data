@@ -1,0 +1,67 @@
+
+Input 
+
+Type 
+
+Example Values 
+
+Restrictions 
+
+Feeding time (routine) 
+
+Time (hh:mm) 
+
+08:00, 18:00 
+
+must be manually adjusted by staff 
+
+Real-Time Clock 
+
+System 
+
+input 
+
+07:59, 08:00, 18:01 
+
+24-hour clock system 
+
+Food Level Sensor 
+
+Boolean/Int 
+
+1 = food present, 0 = empty 
+
+Not quality, but presence, is being felt 
+
+Bowl Weight Sensor 
+
+Float (grams) 
+
+0g → 250g 
+
+Short range, ±5g accuracy  
+
+Output 
+
+Type 
+
+Example Values 
+
+Limitations 
+
+Servo Motor (dispense) 
+
+Action 
+
+45° rotation (release once) 
+
+Sliced into a serving size portion 
+
+Notice to Staff 
+
+Message 
+
+“No food dispensed”, “Pet did not eat”, “Food empty” 
+
+To be Quick and simple 
+
