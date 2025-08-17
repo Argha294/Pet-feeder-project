@@ -1,0 +1,75 @@
+Test Cases (with Expected vs. Actual Results): 
+
+Scenario 
+
+Input Conditions 
+
+Expected Output 
+
+Actual Output (Simulation) 
+
+Typical 
+
+Situation 
+
+Feeding time 08:00, food available, pet eats 
+
+Food dispensed, bowl weight drops, there are 
+
+No warnings 
+
+Food dispensed, bowl weight drops, there are no warnings 
+
+Food Bin Empty 
+
+Feeding time 08:00, food container empty 
+
+ “Food bin empty” is an alert 
+
+“Food bin empty” is an alert 
+
+ 
+
+Pets Don’t Eat 
+
+Food is dispensed at 8:00, and the bowl weight remains unchanged. 
+
+Message: "The dog did not eat." 
+
+pets won't eat 
+
+No Feeding Time 
+
+Time now 09:00 (not time recorded) 
+
+Nothing 
+
+Nothing 
+
+ 
+
+ 
+
+ 
+
+Compare Output with Expectations: 
+
+Usually, all had gone well: the meat had been consumed, the rations had been distributed, and no alarm calls had been raised. 
+
+The mechanism, as it ought to, then engaged the case of Food Bin Empty. 
+
+The system warned in the status of Pet Does Not Eat after a period of ten minutes, just as on time. 
+
+Under No Feeding Time, the system did nothing as specified. 
+
+Suggest Improvements: 
+
+Provide several feeds throughout a day. 
+
+Add a small light or buzzer to allure the pet during feeding. 
+
+Combine sensors (weight + presence) for a stronger detection. 
+
+Keep a basic record of feedings for the staff to review. 
+
+ Refined Solution Summary: The logic of the automated feeder works as expected under normal and error conditions. The refinements proposed add flexibility, reliability, and usability. The system with these improvements would better serve the staff and pets in the shelter by offering more reliable feeding, fewer missed feedings, and improved monitoring.  
